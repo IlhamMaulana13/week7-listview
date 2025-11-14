@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:listview/pages/listview_sparate.dart';
+import 'package:listview/pages/listview_sparate_horizontal.dart';
 void main() {
   runApp(const MyApp());
 }
@@ -15,7 +15,7 @@ class MyApp extends StatelessWidget {
         useMaterial3: true,
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.teal),
       ),
-      home: MyListview(), // pastikan nama class cocok
+      home: MyListviewHorizontal(), // pastikan nama class cocok
       debugShowCheckedModeBanner: false,
     );
   }
